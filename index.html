@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="initMineSweeper()" oncontextmenu="return false;">
+    <header><img src="img/minesweeper.ico" />
+        <h1>Mine Sweeper</h1>
+    </header>
+    <h2>Start a new game</h2>
+    <button onclick="startGame(4,2)">Easy</button>
+    <button onclick="startGame(6,5)">Medium</button>
+    <button onclick="startGame(8,15)">Hard</button>
+    <div class="timer-container">Timer: <span class="timer">0</span></div>
+    <div class="board-container"></div>
+    <div class="popup">
+        <h1></h1>
+        <h4>Took you <span></span> secs</h4>
+        <button onclick="hideVictoryPopup()">Close</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

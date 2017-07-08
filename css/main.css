@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    align-content: center;
+}
+header img{
+    height:60px;
+}
+header h1{
+    display: inline-block;
+    color:red;
+    font-size: 40px;
+    text-shadow: -3px 8px 3px rgba(150, 150, 150, 1);
+}
+.timer-container{
+    margin:20px;
+}
+table,td,tr{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+td{
+    height:31px;
+    width:31px;
+    background-color: gainsboro;
+}
+table{
+    background-color: gray;
+    display:inline-block;
+    font-size: 25px;
+    font-weight:900;
+    box-shadow: -15px 13px 40px -11px rgba(0,0,0,0.73);
+}
+.empty-td{
+    background-color: grey;
+}
+.popup {
+    background-color: lightgray;
+    color:black;
+    padding: 10px;
+    text-align:center;
+    visibility: hidden;
+    position:absolute;
+    top:100px;
+    left: 40%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 20%;
+}
